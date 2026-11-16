@@ -1,0 +1,56 @@
+# Build artifacts
+build/
+build_debug/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Compiled objects and binaries
+*.o
+*.so
+*.so.*
+*.a
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache
+.cache/
+
+# Environment
+.venv/
+
+# Output files
+libtuxrt_core.so*
+libtuxrt_core_asan.so
+libtuxrt_core_tsan.so
+
+# Temp test binaries
+test_*
+
+# Documentation (generated)
+*.md
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Mojo cache
+.__mojocache__*/
+
+# Pixi environments
+.pixi/*
+
+# Skip .trae backups
+!.pixi/config.toml
+
+libtuxwarp
